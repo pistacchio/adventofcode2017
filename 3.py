@@ -47,5 +47,4 @@ while current_loc_num <= STARTING_LOCATION:
     current_loc_num, current_loc = add_circle(current_circle, current_loc_num, current_loc)
 
 current_loc = [k for k, v in memory.iteritems() if v == STARTING_LOCATION][0]
-
 print abs(current_loc[0]) + abs(current_loc[1])
